@@ -1,0 +1,27 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  color: black;
+  font-family: "helvetica";
+}
+
+#button {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+#button:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+#search {
+  border: 1px solid #E7E7E7;
+}
